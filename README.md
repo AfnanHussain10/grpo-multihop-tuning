@@ -70,7 +70,7 @@ Each experiment is configured with different:
   
 The trained models are saved inside:
 ```bash
-.art/hotpotqa-multihop/models/
+./.art/hotpotqa-grpo-experiments/models/
 ```
 ## 💬 Inference Demo
 
