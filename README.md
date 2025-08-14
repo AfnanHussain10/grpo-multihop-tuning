@@ -79,7 +79,7 @@ Here’s a minimal example for running inference on a fine-tuned model:
 from transformers import AutoTokenizer, AutoModelForCausalLM, PeftModel
 import torch
 
-BASE_MODEL = "Qwen/Qwen2.5-3B-Instruct"
+BASE_MODEL = "unsloth/qwen2.5-1.5b-instruct-unsloth-bnb-4bit"
 ADAPTER_PATH = "./.art/hotpotqa-grpo-experiments/models/<model_name>/<latest_checkpoint>"
 
 # Load base model
