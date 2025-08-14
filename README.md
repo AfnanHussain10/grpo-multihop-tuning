@@ -80,7 +80,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, PeftModel
 import torch
 
 BASE_MODEL = "Qwen/Qwen2.5-3B-Instruct"
-ADAPTER_PATH = ".art/hotpotqa-multihop/models/hotpotqa-agent/<latest_checkpoint>"
+ADAPTER_PATH = "./.art/hotpotqa-grpo-experiments/models/<model_name>/<latest_checkpoint>"
 
 # Load base model
 tokenizer = AutoTokenizer.from_pretrained(BASE_MODEL)
